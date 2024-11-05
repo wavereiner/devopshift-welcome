@@ -1,7 +1,7 @@
 
 
 argoApplication:
-  install: False
+  install: True
   name: bookinfo-application
   project: default
   repoURL: 'https://github.com/wavereiner/devopshift-welcome'
