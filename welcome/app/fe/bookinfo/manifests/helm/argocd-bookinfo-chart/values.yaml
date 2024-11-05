@@ -8,6 +8,6 @@ argoApplication:
   path: ./welcome/app/fe/bookinfo/manifests/helm/bookinfo-chart
   targetRevision: argocd-workshop
   server: 'https://kubernetes.default.svc'
-  namespace: defaultgit
+  namespace: default
   prune: true
   selfHeal: true
